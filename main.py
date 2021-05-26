@@ -36,7 +36,7 @@ def clear():
 	os.system("cls" if os.name == "nt" else "clear")
 
 def main():
-	parser = argparse.ArgumentParser(description=("Magicheaders Editer"))
+	parser = argparse.ArgumentParser(description=("Magic Bytes Editer"))
 	parser.add_argument("-i", "--input", help="Input File/Image", required=True)
 	parser.add_argument("-o", "--output", help="Output File/Image", required=True)
 	parser.add_argument("-t", "--type", help="Magic Headers", required=True)
